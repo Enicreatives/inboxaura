@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">INBOXAURA</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Theme Toggle Button -->
+      <button id="theme-toggle" class="btn btn-color-2" title="Toggle light/dark mode" style="margin-left:1rem;">🌙</button>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">ENITAN</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+      <!-- Theme Toggle Button for Hamburger Nav -->
+      <button id="theme-toggle-mobile" class="btn btn-color-2" title="Toggle light/dark mode" style="margin:10px auto;display:block;">🌙</button>
+    </nav>
+
+    <!-- Profile Section Start-->
+    <section id="profile">
+      <div class="section__pic-container" style="border-radius: 50%; overflow: hidden; width: 500px; height: 500px;">
+        <img src="./assets/nerd1.jpg" alt="Enitan profile picture"
+          style="width: 100%; height: 130%; object-fit: cover;" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Enitan</h1>
+        <p class="section__text__p2">Social Media Marketing Expert</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Enitan Paul.pdf')">
+            Download Resume
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://web.facebook.com/enitan.olaniyan.2025" target="_blank">
+            <img src="./assets/facebook.png" alt="My Facebook profile" class="icon" />
+          </a>
+          <a href="https://www.instagram.com/paulc_reativzz/" target="_blank">
+            <img src="./assets/instagram.png" alt="My Instagram profile" class="icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+<img src="./assets/ArrowDn.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+
+    <!-- About Section Start-->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">ABOUT ME</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/nerd2.jpg" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>2+ years <br />Social Media Strategist | Storyteller | Brand Architect</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.C.A [Bachelors Of Computer Applications Degree]<br />Bachelor of Arts (B.A.) degree in English and Literary Studies
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Yo! I’m Enitan Inbox, a social media marketing strategist with an eye for story,Think of me as the calm in the social media storm. I craft elegant strategy, memorable content, and campaigns that behave like good coffee: strong, warm, and impossible to ignore. 
+              Whether it’s Instagram, TikTok, Facebook, or that random platform your cousin swears is the next big thing
+              <br>Let’s create something amazing together!</br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<img src="./assets/ArrowDn.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+
+    <!-- Experience Section Start-->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience in Social Media Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Content Creation & Strategy</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Instagram Marketing</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>TikTok Marketing</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Facebook Ads</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Copywriting</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Visual Design Direction</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Brand Storytelling</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Hashtag Strategy</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Content Calendars</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Analytics & Campaign Management</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Social Media Strategy</h3>
+                  <p>Specialist</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Audience Engagement</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Paid Ad Optimization</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Analytics & Insights</h3>
+                  <p>Specialist</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Conversion Tracking</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Trend Analysis</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<img src="./assets/ArrowDn.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+
+    <!-- Project Section Start-->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">PROJECTS</h1>
+
+
+      <div class="projects-container">
+
+        <!-- First Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/supple.jpg" 
+            alt="Project 1" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Supplement Ads Design</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/1PGiOHlbTpaVT-BJb5qJWq8c05qOHSxh3SzqtWjyTCtU/edit?usp=sharing', '_blank');">
+              Full Project
+            </button>
+          </div>
+        </div>
+
+        <!-- Second Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/foods.jpg" 
+            alt="Project 2" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Social Media Food Ads Design.</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/1hbprNW-B-2VF0ceiLTCYIPOOVJGIp34uKR9ANsKieD0/edit?usp=sharing', '_blank');">
+              Full Project
+            </button>
+          </div>
+        </div>
+
+        <!-- Third Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/Organic.jpg" 
+            alt="Project 3" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Organic Instagram Followers</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/1mxCWsneZA32LHCl5z10ruVTYNlQylYgkE03aUJhcXEs/edit?usp=sharing/', '_blank');">
+              View More
+            </button>
+          </div>
+        </div>
+
+
+        <!-- Fourth Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/muscle.JPG"
+            alt="Project 4" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Muscle fit Ads</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('file:///C:/Users/ADMIN/Downloads/Provitalize%20_%20Probiotic%20for%20Menopause%20Weight%20Loss%20_%20BB%20Company/Muscle%20Fits%20Ads%20Design.pdf');">
+              View More
+            </button>
+          </div>
+        </div>
+
+
+        <!-- Fifth Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/INS.PNG" 
+            alt="Project 5" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Audience Engagement</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/1zNPuC-ycb6xDzC0J7p6guKR7WCKjZhvs4FjA_MDsil8/edit?usp=sharing');">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+        <!-- Sixth Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/shopify.png" 
+            alt="Project 6" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Meta Ads Analytics</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/1D1wFrM0P_KRPNxnoV8WjTQGkv6k8oVLGFQw9cSUyA70/edit?usp=sharing);">
+              View Full Project
+            </button>
+          </div>
+        </div>
+
+        <!-- Seventh Project-->
+        <div class="project-card color-container">
+          <div class="article-container">
+            <img src="./assets/SMD.jpg" 
+            alt="Project 7" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Social Media Designs</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/1yDXhHRklcWuhxYrHieleKx1kW8-WI4UBiN_Gdb4KBgA/edit?usp=sharing');">
+              View Full Designs
+            </button>
+          </div>
+        </div>
+
+        <!-- Eighth Project-->
+              
+        <div class="project-card color-container">
+          <div class="article-container">
+              <img
+                  src="./assets/Fb Ads Tech.png"
+                  alt="Project 8"
+                  class="project-img"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">Tech Fb Ads design</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/19apJuAL5QICl_CbLTgstbWc5yOLErlIVR0rUzVlGRz4/edit?usp=sharing');">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+             <!-- Ninth Project-->
+              
+        <div class="project-card color-container">
+          <div class="article-container">
+              <img
+                  src="./assets/gym.png"
+                  alt="Project 9"
+                  class="project-img"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">GYM FB DESIGNS</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://docs.google.com/document/d/14pwaGrx-NVIBQOVD_15OVwlu5yQ0GC8xJT61d5gdr5w/edit?usp=sharing');">
+              Full Work
+            </button>
+          </div>
+        </div>
+       
+
+             <!-- Tenth Project--
+              
+        <div class="project-card color-container">
+          <div class="article-container">
+              <img
+                  src="./assets/SnakeGame.png"
+                  alt="Project 8"
+                  class="project-img"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Eighth</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/17-Snake%20Game', '_blank');">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App', '_blank');">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+             <!-- Ninth Project--
+              
+        <div class="project-card color-container">
+          <div class="article-container">
+              <img
+                  src="./assets/SnakeGame.png"
+                  alt="Project 9"
+                  class="project-img"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Ninth</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/17-Snake%20Game', '_blank');">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App', '_blank');">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+             <!-- Tenth Project--
+              
+        <div class="project-card color-container">
+          <div class="article-container">
+              <img
+                  src="./assets/SnakeGame.png"
+                  alt="Project 10"
+                  class="project-img"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Tenth</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/17-Snake%20Game', '_blank');">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App', '_blank');">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+      this is end div
+        </div>
+
+-->
+    </section>
+
+<img src="./assets/ArrowUp.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" />
+
+    <!-- Contact Section Start-->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:chiragsingh9868@gmail.com">eniolaniyan45@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info-container">
+          <img src="./assets/facebook.png" alt="Facebook icon" class="icon contact-icon" />
+          <p>
+            <a href="https://web.facebook.com/enitan.olaniyan.2025" target="_blank"
+              rel="noopener noreferrer">Inboxaura</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer Section Start-->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 @Inboxaura. All Rights Reserved.</p>
+      <!-- <p>View me in Light/Dark Mode, toggle the theme button from nav bar.</p>  -->
+    </footer>
+    <script src="script.js"></script>
+
+    <!-- Project Details Modal -->
+  <div id="project-modal" class="modal" style="display:none;position:fixed;z-index:2000;left:0;top:0;width:100vw;height:100vh;overflow:auto;background-color:rgba(0,0,0,0.6);align-items:center;justify-content:center;">
+    <div class="modal-content" style="background:#686565;margin:5% auto;padding:2rem;border-radius:1.5rem;width:90%;max-width:600px;position:relative;box-shadow:0 4px 32px rgba(0,0,0,0.2);">
+      <span class="close-modal" style="position:absolute;top:1rem;right:1.5rem;font-size:2rem;color:#212020;cursor:pointer;">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  </body>
+
+</html>
